@@ -3,6 +3,6 @@
 str = input("Enter Any String Which Contains Digits : ")
 sum = 0
 for char in str:
-  if char.is_digit():
+  if char.isdigit():
     sum = sum + int(char)
-print(f"Sum of Digits of String : {sum} ")
+print(f"Sum of Digits which are present in String : {sum} ")
